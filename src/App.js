@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './App.css'
+import PrimeiroComponente from './components/PrimeiroComponente'
 
 function App() {
   const [n1, setN1] = useState(0)
@@ -39,6 +40,9 @@ function App() {
         </select>
 
         <label>Resultado {resultado}</label>
+
+        <PrimeiroComponente />
+        <PrimeiroComponente />
       </div>
     </div>
   )
