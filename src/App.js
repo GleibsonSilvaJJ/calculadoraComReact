@@ -24,7 +24,8 @@ function App() {
   return (
     <div class="box-degrade">
       <div className="App">
-        <h1>Calculadora React</h1>
+        <h1>Gleibson Silva</h1>
+        <h2>Calculadora React</h2>
         <label>Primeiro Número</label>
         <input type="number" value={n1} onChange={e => setN1(e.target.value)} />
         <label>Segundo Número</label>
