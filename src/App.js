@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './App.css'
 import PrimeiroComponente from './components/PrimeiroComponente'
+import UsandoProps from './components/UsandoProps'
 
 function App() {
   const [n1, setN1] = useState(0)
@@ -42,7 +43,11 @@ function App() {
         <label>Resultado {resultado}</label>
 
         <PrimeiroComponente />
-        <PrimeiroComponente />
+        <UsandoProps 
+        nome = "João"
+        idade = "30"
+        profissao = "Programador"
+        foto = "https://via.placeholder.com/150"/>
       </div>
     </div>
   )
