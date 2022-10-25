@@ -1,0 +1,29 @@
+.navbarContainer {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+    text-decoration: none;
+        
+}
+
+.navList {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 6rem;
+    list-style: none; 
+
+    
+}
+    
+
+
+.navLinks {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 800;  
+    list-style: none;  
+}
